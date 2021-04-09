@@ -5,5 +5,4 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
-
-CREDENTIALS_FILE
+CREDENTIALS_FILE.json

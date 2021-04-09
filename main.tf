@@ -18,7 +18,7 @@ resource "google_compute_instance" "default" {
   zone         = "us-central1-c"
 
   metadata = {
-    ssh-keys = "matt.crook11@gmail.com:${file("~/.ssh/id_rsa.pub")}"
+    ssh-keys = "matt.crook11@gmail.com:${file("~/.ssh/id_rsa.pub")}
   }
 
   boot_disk {
